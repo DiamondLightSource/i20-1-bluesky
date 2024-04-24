@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier
+_commit: 2.1.0
+_src_path: gh:DiamondLightSource/python-copier-template
+author_email: stanislaw.malinowski@diamond.ac.uk
+author_name: Stanislaw Malinowski
+component_owner: group:default/sscc
+description: Bluesky plans and devices for i20-1
+distribution_name: i20-1-bluesky
+docker: false
+docs_type: README
+git_platform: github.com
+github_org: DiamondLightSource
+package_name: i20_1_bluesky
+pypi: false
+repo_name: i20-1-bluesky
+type_checker: pyright

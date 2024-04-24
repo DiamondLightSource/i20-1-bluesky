@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: i20-1-bluesky
+  title: i20-1-bluesky
+  description: Bluesky plans and devices for i20-1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/sscc
