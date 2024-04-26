@@ -1,6 +1,7 @@
 from typing import Any, List
 
 import bluesky.plan_stubs as bps
+from dodal.common.types import MsgGenerator
 
 # from dls_bluesky_core.core import in_micros
 # from dodal.common.types import MsgGenerator
@@ -27,7 +28,7 @@ import bluesky.plan_stubs as bps
 # xpress 3
 
 
-def continuous_movement(motors: List[Any] = None, devices: List[Any] = None):
+def continuous_movement(motors: List[Any] = None, devices: List[Any] = None) -> MsgGenerator:
     yield from bps.stage_all(*devices)
     yield from bps.open_run()
     pass
