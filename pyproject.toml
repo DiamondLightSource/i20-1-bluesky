@@ -7,14 +7,14 @@ name = "i20-1-bluesky"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: Apache Software License",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
 description = "Bluesky plans and devices for i20-1"
-dependencies = [] # Add project dependencies here, e.g. ["click", "numpy"]
+dependencies = [
+    "dls-dodal@git+https://github.com/DiamondLightSource/dodal.git@main",
+    "ophyd-async@git+https://github.com/bluesky/ophyd-async.git@main",
+]
 dynamic = ["version"]
 license.file = "LICENSE"
 readme = "README.md"
